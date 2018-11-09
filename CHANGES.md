@@ -16,6 +16,7 @@ Fixed Issues:
 	* [#2858](https://github.com/ckeditor/ckeditor-dev/issues/2858): [Menu](https://ckeditor.com/cke4/addon/menu).
 * [#3158](https://github.com/ckeditor/ckeditor-dev/issues/3158): [Chrome, Safari] Fixed: [Undo](https://ckeditor.com/cke4/addon/undo) plugin breaks with filling character.
 * [#504](https://github.com/ckeditor/ckeditor-dev/issues/504): [Edge] Fixed: Editor's selection is collapsed to the beginning of the content when focusing editor for the first time.
+* [#2395](https://github.com/ckeditor/ckeditor-dev/issues/2395): Fixed: focused input in [dialog](https://ckeditor.com/cke4/addon/dialog) is scrolled out of viewport when soft keyboard appears.
 
 API Changes:
 
