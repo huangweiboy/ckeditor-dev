@@ -189,7 +189,7 @@
 
 		// Return the editor instance immediately to enable early stage event registrations.
 		CKEDITOR.tools.setTimeout( function() {
-			if ( this.status !== 'destroyed' ) {
+			if ( this.status !== 'destroyed' && !this.element.isDetached() ) {
 				initConfig( this, instanceConfig );
 			} else {
 				CKEDITOR.warn( 'editor-incorrect-destroy' );
@@ -605,7 +605,6 @@
 						}
 
 						if ( editor.container && editor.container.isDetached() ) {
-							editor.destroy();
 							return;
 						}
 
