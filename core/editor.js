@@ -1589,11 +1589,7 @@
 		 * @return {boolean}
 		 */
 		_shouldPreventInit: function() {
-			if ( this.container && this.container.isDetached() ) {
-				return true;
-			}
-
-			return this.status === 'destroyed';
+			return this.status === 'destroyed' || this.container && this.container.isDetached();
 		}
 	} );
 
