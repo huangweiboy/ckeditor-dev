@@ -1566,7 +1566,7 @@ CKEDITOR.DIALOG_STATE_BUSY = 2;
 		 * @static
 		 * @since 4.13.0
 		 */
-		CREATION_MODE: 1,
+		CREATION_MODE: 0,
 
 		/**
 		 * Indicates that the dialog is modifying existing editor state like updating
@@ -1575,7 +1575,7 @@ CKEDITOR.DIALOG_STATE_BUSY = 2;
 		 * @static
 		 * @since 4.13.0
 		 */
-		EDITING_MODE: 2,
+		EDITING_MODE: 1,
 
 		/**
 		 * Registers a dialog.
