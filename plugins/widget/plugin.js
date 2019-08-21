@@ -2776,7 +2776,7 @@
 		} );
 
 		function eventListener( evt ) {
-			if ( widgetsRepo.selected.length < 0 ) {
+			if ( widgetsRepo.selected.length < 1 ) {
 				return;
 			}
 
