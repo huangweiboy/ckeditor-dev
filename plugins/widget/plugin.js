@@ -1246,7 +1246,7 @@
 		 * {@link CKEDITOR.plugins.widget.definition#getClipboardHtml widgetDefinition.getClipboardHtml}
 		 * to customize HTML copied to the clipboard during copy, cut and drop events.
 		 *
-		 * @since 4.12.0
+		 * @since 4.13.0
 		 * @returns {String} Widget HTML.
 		 */
 		getClipboardHtml: function() {
@@ -4317,7 +4317,7 @@
  * If not set, current widget HTML will be used instead.
  *
  * @method getClipboardHtml
- * @since 4.12.0
+ * @since 4.13.0
  * @returns {String} Widget HTML.
  */
 
